@@ -1,0 +1,21 @@
+pip install django
+python -m django --version
+
+python -m django startproject myproject
+
+cd myproject
+envi (.enven)//not in exam
+python manage.py startapp demoapp
+
+cd urldemo
+python manage.py runserver
+
+IMP ALWAYS 
+setting.py register
+install app list add demoapp
+change in another urls.py make it demo name
+
+
+examples :
+ make two app
+means two demotype:cras and book
